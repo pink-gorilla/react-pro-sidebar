@@ -1,0 +1,9 @@
+{:name "demo"
+ :cljs-routes  {"" demo.page.simple/page-simple
+                }
+ :sci-cljs-ns [demo.page.simple
+               
+               ]
+
+ 
+}

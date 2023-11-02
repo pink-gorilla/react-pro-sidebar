@@ -1,0 +1,31 @@
+{:name "react-pro-sidebar"
+ ; build
+ :sci-lazy false ; true
+
+ :cljs-namespace [react-pro-sidebar.core
+                  clock.core
+                  ]
+ :cljs-ns-bindings {'react-pro-sidebar.core {'sidebar react-pro-sidebar.core/sidebar
+                                             'menu react-pro-sidebar.core/menu
+                                             'menu-item react-pro-sidebar.core/menu-item
+                                             'sub-menu react-pro-sidebar.core/sub-menu
+                                             
+                                             'sidebar2 react-pro-sidebar.core/sidebar2
+                                             'menu2 react-pro-sidebar.core/menu2
+                                             'menu-item2 react-pro-sidebar.core/menu-item2
+                                             'sub-menu2 react-pro-sidebar.core/sub-menu2
+
+                                             'sidebar3 react-pro-sidebar.core/sidebar3
+                                             'menu3 react-pro-sidebar.core/menu3
+                                             'menu-item3 react-pro-sidebar.core/menu-item3
+                                             'sub-menu3 react-pro-sidebar.core/sub-menu3
+
+                                             'create-forwarded-element react-pro-sidebar.core/create-forwarded-element
+                                             }
+                    'clock.core {'clock clock.core/clock}
+                    
+                    }
+ ; runtime
+
+ ;
+ }
